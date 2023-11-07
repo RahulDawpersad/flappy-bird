@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahul's Flappy Bird</title>
+    <!--─── CSS LINK ───────-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--─── GAME LOGIC ──────────────────────────────-->
+    <script src="assets/javascript/index.js" defer></script>
+  </head>
+  <body>
+    <!-- Loader -->
+
+    <div class="wrapper">
+      <section class="preloader">
+        <div class="title">
+          Flappy Bird
+        </div>
+        <div class="bird">
+          <div class="bird_part bird_part--tongue"></div>
+          <div class="bird_part bird_part--hair"></div>
+          <div class="bird_part bird_part--neck"></div>
+          <div class="bird_part bird_part--head"></div>
+          <div class="bird_part bird_part--eye"></div>
+          <div class="bird_part bird_part--beak"></div>
+        </div>
+      </section>
+      <div class="title-two">
+        Developed By Rahul Dawpersad
+      </div>
+    </div>
+
+    <!-- End of Loader -->
+
+    <div id="audio-container">
+      <audio autoplay loops>
+        <source
+          src="./assets/audio/bg_songs/The Weeknd - Blinding Lights (Lyrics).mp3"
+          type="audio/mp3"
+        />
+      </audio>
+    </div>
+
+    <main>
+      <canvas id="canvas"></canvas>
+    </main>
+
+    <footer>
+      <!-- <p class="developer">Developed By Rahul Dawpersad</p> -->
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
