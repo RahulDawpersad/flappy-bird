@@ -375,7 +375,7 @@ SFX.start.src = "assets/audio/Main_sounds/start.wav";
 SFX.flap.src = "assets/audio/Main_sounds/flap.wav";
 SFX.score.src = "assets/audio/Main_sounds/score.wav";
 SFX.hit.src = "assets/audio/Main_sounds/hit.wav";
-//SFX.bg.src = "assets/audio/bg_songs/The Weeknd - Blinding Lights (Lyrics).mp3";
+SFX.bg.src = "assets/audio/bg_songs/The Weeknd - Blinding Lights (Lyrics).mp3";
 
 // ? AUDIO PROPATIES
 SFX.start.volume = 0.2;
